@@ -11,6 +11,18 @@
   order: 10;
 }
 
+@media screen and (min-width: 700px) and (max-width: 870px) {
+  .scores__table {
+    text-align: left;
+  }
+  .scores__table td:nth-child(2), td:nth-child(5) {
+    text-align: left;
+  }
+  .scores__table td:nth-child(3) {
+    text-align: left; 
+  }
+}
+
 @media screen and (max-width: 549px) {
   .header__logo {
     height: 48px;
